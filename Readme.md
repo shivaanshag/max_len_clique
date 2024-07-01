@@ -1,9 +1,18 @@
 # Using modified quick-clique library to calculate 0-1-2 problem results
 
-## Setup: 
+## Setup:
+
+### Clone this repo
+
+`git clone git@github.com:shivaanshag/max_len_clique.git`
+
 ### Initialize the quick-clique dependency
 
 `git submodule update --init --recursive`
+
+### Apply changes to the quick-cliques library (find a workaround for submodule changes)
+`cp main.cpp quick-cliques/src/`
+`cp Tools.cpp quick-cliques/src/`
 
 ### Build quick-cliques binary
 - `cd quick-cliques`
