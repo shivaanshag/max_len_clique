@@ -12,11 +12,14 @@
 
 ### Apply changes to the quick-cliques library (find a workaround for submodule changes)
 `cp main.cpp quick-cliques/src/`
+
 `cp Tools.cpp quick-cliques/src/`
 
 ### Build quick-cliques binary
-- `cd quick-cliques`
-- `make && cd ..`
+
+`cd quick-cliques`
+
+`make && cd ..`
 
 ## Run the calculations
 ### For running a specific combination:
